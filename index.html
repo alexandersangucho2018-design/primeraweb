@@ -8,7 +8,7 @@
         <meta charset="UTF=8">
         <title>primera pagina web</title>
     </head>
-    <body style="color:crimson;">
+    <body style="color:rgb(15, 15, 15);">
         <!--cabezeras h titulo-->
         <h1>Hola mundo primera pagina web</h1>
         <h2>titulo</h2>
@@ -42,10 +42,181 @@
     Las absolutas y las Relativas
     las rutas absolutas direccion complta url
     rutas relativas direccionar en un solo compónente-->
-</body>
-    <h3>ir a una recurso de youtube</h3>
-    <a href="https://youtu.be/0_mgFn9-T2M?si=Voyt8LzKLhj-1ThA" target="_blank">ir al video</a>
-    <br>
-    <h3>ir a contacto</h3>
-    <a href="vistas/contacto.html">Ir a contacto</a>    
+    <div>
+        <h3>ir a una recurso de youtube</h3>
+        <a href="https://youtu.be/0_mgFn9-T2M?si=Voyt8LzKLhj-1ThA" target="_blank">ir al video</a>
+        <br>
+     <h3>ir a contacto</h3>
+        <a href="vistas/contacto.html">Ir a contacto</a>  
+    </div>  
+    <!--img Esta etiqueta me permite insertar imagenes dentro de mi documento HTML, esta
+    etiqueta tiene algunos parametros y eselmas importantes es el paramatro src, esta
+    etiqueta es una etiqueta simple-->
+    <div>
+        <h2>Imagen HTML</h2>
+        <img src="img/man-avatar-icon-cartoon-male-profile-mascot-illustration-face-business-user-logo-free-vector.jpg" alt="man-avatar-icon-cartoon-male-profile-mascot-illustration-face-business-user-logo-free-vector" width="250p" height="250px">
+    </div>
+    <!--La etiqueta table-Esta etiqueta me permite generar ocrear tabalas
+    estaticas conformada por filas y columnas-->
+    <div>
+        <h2>Tabla de posiciones</h2>
+        <table border="1px">
+            <tr>
+                <th>posiciones</th>
+                <th>equipos</th>
+                <th>partidos jugados</th>
+                <th>puntos</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Independiente</td>
+                <td>4</td>
+                <td>10 pts</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Nacional</th>
+                <th>4</th>
+                <td>10 pts</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Emelec</th>
+                <th>4</th>
+                <th>9</th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>Liga</th>
+                <th>4</th>
+                <th>9</th>
+            </tr>
+            <tr>
+                <th>5</th>
+                <th>deportivo cuenca</th>
+                <th>3</th>
+                <th>8</th>
+            </tr>
+            <tr>
+                <th>6</th>
+                <th>U.Catolica</th>
+                <th>3</th>
+                <th>7</th>
+            </tr>
+            <tr>
+                <th>7</th>
+                <th>Orense</th>
+                <th>3</th>
+                <th>6</th>
+            </tr>
+            <tr>
+                <th>8</th>
+                <th>Delfin</th>
+                <th>2</th>
+                <th>5</th>
+            </tr>
+            <tr>
+                <th>9</th>
+                <th>Aucas</th>
+                <th>2</th>
+                <th>4</th>
+            </tr>
+            <tr>
+                <th>10</th>
+                <th>Macara</th>
+                <th>2</th>
+                <th>1</th>
+            </tr>
+            <tr>
+                <td colspan="3">total</td>
+                <td>69</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1px">
+            <tr>
+                <th></th>
+                <th rowspan="2"></th>
+                <th colspan="2">Media</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Altura</td>
+                <td>Peso</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Sexo</td>
+                <td>Hombres</td>
+                <td>1.9</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Mujeres</td>
+                <td>1.9</td>
+                <td>85</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1xp">
+            <tr>
+                <td colspan="5">Diferenciasentreel Perro y el Hombre</td>
+            </tr>
+            <tr>
+                <th colspan="2" rowspan="2">Diferencia</th>
+                <th colspan="2" rowspan="1">Perro</th>
+                <th colspan="1" rowspan="2">Hombre</th>
+            </tr>
+            <tr>
+                <td>pequeno</td>
+                <td>grande</td>
+            </tr>
+            <tr>
+                <th></th>
+            </tr>
+        </table>
+    </div>
+    <!--La etiquetas de vistasme permite listar items de forma ordena o desordenada
+    <ul></ul> y <ol></ol> lista ordenadas-->
+    <div>
+        <h2>Lista de mercado</h2>
+        <ul style="list-style-type: square;">
+            <li>Frutas
+                <ul>
+                    <li>mnazanas</li>
+                    <li>peras</li>
+                    <li>naranjas</li>
+                </ul>
+            </li>
+            <li>Verduras</li>
+            <li>Lacteos</li>
+            <li>Carnicos</li>
+        </ul>
+        <h2>Lista ordenada</h2>
+        <ol type="I">
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Python</li>
+        </ol>
+    </div>
+    <!--Formular las etiquetas <form> me permite agrupar distintas etiquetas 
+        como labeñ, input-->
+        <div>
+            <form action="">
+                <div>
+                    <label for="nombre">ingrese el nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="edad">ingrese la edad del estudiante</label>
+                    <input type="number" id="edad" name="edad">
+                </div>
+                <div>
+                    <input type="submit" value="enviar">
+                </div>
+            </form>
+        </div>
+
+    </body>
 </html>
