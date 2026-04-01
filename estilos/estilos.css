@@ -1,0 +1,30 @@
+/*Aqui vanlos estilos SCC*/
+/*Estilos universales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Estilos del body
+RGB combinacion de tres colores primario
+R rojo
+G verde
+B azul
+Cuando utilizamos este tipo de colores el rango
+esta en 8b eso quiere decir de 0-255*/
+body{
+    background-color:rgb(189, 38, 38);
+    font-family:Arial, sans-serif;
+}
+div{
+    background-color: blue;
+}
+h1{
+    background-color: rgb(89, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    width: 50%;
+    margin: 20px;
+
+}
